@@ -58,7 +58,7 @@ def get_text(links,path):
             continue
              
 if True:#我把爬取的链接保存了下，所分成了两部，第一次爬取链接，第二次爬取文本 
-    f = open('E:\hei.txt','w')
+    f = open('..\joinquantdata\hei.txt','w')
     driver = webdriver.PhantomJS()#如果phantomjs.exe所在路径没有加入环境变量，这里也可以直接把其路径作为参数传给PhantomJS()
     driver.get("http://finance.sina.com.cn/chanjing/")
     driver.find_element(By.LINK_TEXT, "公司新闻").click()
@@ -68,7 +68,7 @@ if True:#我把爬取的链接保存了下，所分成了两部，第一次爬�
     driver.close()
      
 if True:#爬取文本 
-    xl = open('E:\heiii.txt','w')
-    with open('E:\heii.txt') as f:
+    xl = open('..\joinquantdata\heiii.txt','w')
+    with open('..\joinquantdata\heii.txt') as f:
         links = [link.strip() for link in f]
     get_text(links,xl)
