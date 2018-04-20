@@ -12,7 +12,7 @@ import re
 import time
 
 if __name__=='__main__':
-    f = open(r'..\joinquantdata\newstitle.txt','w')
+
     driver = webdriver.PhantomJS(executable_path = 'E:\\Anaconda2\\phantomjs\\bin\\phantomjs.exe')
     driver.get("http://finance.sina.com.cn/chanjing/")
     
