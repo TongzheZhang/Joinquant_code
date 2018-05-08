@@ -76,7 +76,7 @@ def getAllFeatureVecs(reviews, model, num_features, index2word_set):
 if __name__ == "__main__":
 
     #jieba.load_userdict('../Data/wiki_corpus.txt')
-    workbook = xlrd.open_workbook('../Data/yuqing_labeled_data_output.xlsx')  
+    workbook = xlrd.open_workbook('../../data/ZTZ_labeled_data_output.xlsx')  
     booksheet = workbook.sheet_by_index(0)         #用索引取第一个sheet   
     '''一些表格操作'''
     #cell = booksheet.cell_value(1,0) #读单元格数据   
@@ -86,8 +86,8 @@ if __name__ == "__main__":
     clean_train_reviews = []
     y = []
     '''写入文本'''
-    wfile1 ='../Data/dat_after_process_p.txt'
-    wfile2 ='../Data/dat_p.txt'
+    wfile1 ='../../data/dat_after_process_p.txt'
+    wfile2 ='../../data/dat_p.txt'
     wf1 = open(wfile1,'wb')
     #wf2 = open(wfile2,'wb')
     for i in range(1, booksheet.nrows):
@@ -101,14 +101,13 @@ if __name__ == "__main__":
         if i%1000==0: print i
      
     '''得到句特征'''
-    model = gensim.models.Word2Vec.load("../Data/sohumodeldata200.model")
-    #model = gensim.models.Word2Vec.load("../Data/wiki.zh.text.model")
+    model = gensim.models.Word2Vec.load("../../data/wiki.zh.text.model")
     index2word_set = model# set(model.index2word)   
-    fl = 200
+    fl = 400
     X = getAllFeatureVecs(clean_train_reviews, model, fl, index2word_set)
     
     '''保存数据特征'''
-    np.save("../Data/X_p.npy", X)
-    np.save("../Data/y_p.npy", y)
+    np.save("../../data/X_p.npy", X)
+    np.save("../../data/y_p.npy", y)
    
          

@@ -16,7 +16,7 @@ import time
 from sklearn.externals import joblib
 import random
 from sklearn.grid_search import GridSearchCV
-
+from sklearn.externals import joblib
 
 if __name__ == "__main__":
     '''计时开始'''
@@ -24,8 +24,8 @@ if __name__ == "__main__":
     #print "start time is:",starttime
  
     #载入所有特征和标记
-    X = np.load('../Data/X_p.npy')#X = np.load('../Data/X_PCA.npy')
-    y = np.load('../Data/y_p.npy')
+    X = np.load('../../data/X_p.npy')
+    y = np.load('../../data/y_p.npy')
     X_pos = []
     X_neg = []
     
@@ -58,7 +58,8 @@ if __name__ == "__main__":
     print '超参数搜索后的测试结果(全样本)：'
     clf.fit(X, y)
     print clf.score(X, y)
-    
+    # 保存模型
+    joblib.dump(clf, "news_model.m")
     '''测试单一新闻标题'''
     '''
     clf.fit(X, y)  # training the svc model  
