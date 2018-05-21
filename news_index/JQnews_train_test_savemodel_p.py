@@ -41,7 +41,7 @@ if __name__ == "__main__":
     X_new = np.array(X_pos_down + X_neg)
     
     #定义分类器
-    clf = svm.SVC(C=4.7, kernel = 'rbf')  #6.30957344480192986
+    clf = svm.SVR(C=4.7, kernel = 'rbf')  #6.30957344480192986
     '''
     #scoring 可以是 'precision_macro' or 'recall_macro' or ' f1_macro']
     scores = cross_val_score(clf, X, y, cv=3, scoring = 'precision_macro')
