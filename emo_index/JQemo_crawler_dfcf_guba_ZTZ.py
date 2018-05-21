@@ -73,7 +73,7 @@ def get_emo_initial_result(stockcode):
                 everydaycount += 1
                 recordDate = tempTime.split()[0]
         driver.find_element(By.LINK_TEXT, "下一页").click()
-        time.sleep(1)
+        time.sleep(5)
         print '%d page'%t
         t = t + 1
     name = ['date', 'sentiment']

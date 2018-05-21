@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     sent['sent_ES'].plot()
     
-    sent.to_csv('603019sent_processed.csv')
+    #sent.to_csv('%dsent_processed.csv'%stockcode)
     # 保存到策略路径
     sent.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/.joinquant/notebook/85ac30828335a92fe694ad583030ea95/%dsent_processed.csv'%stockcode)
     # 保存到研究路径
