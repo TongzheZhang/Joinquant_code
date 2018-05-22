@@ -68,6 +68,14 @@ def get_news_index_list(website):
     return result
 
 
+def ES(sentArray, alpha):
+    sentArrayES = []
+    sentArrayES.append((sentArray[0]+sentArray[1]+sentArray[2])/3)
+    for i in range(1, len(sentArray)):
+        tempS = alpha*sentArray[i] + (1-alpha)*sentArrayES[-1]
+        sentArrayES.append(tempS)
+    return sentArrayES
+
 '''输入按时间收集的新闻、分数list，返回按天的df'''
 def trans_result_to_allday_df(result):
     totalTime =[]
@@ -107,20 +115,32 @@ def add_years(tempdate):
 
 
 if __name__=='__main__':
-    
+    SecIDList = [600000,600006,600008,600009,600010,600011,600015,600017,600018,600021,\
+                 600026,600028,600030,600050,600060,600062,600064,600120,600138,600155,600166,\
+                 600177,600184,600196,600233,600260,600271,600298,600340,600390]
+    for SecID in SecIDList:
+        print SecID
+        website = "http://guba.eastmoney.com/list,%s,1,f_1.html"%SecID
+        result = get_news_index_list(website)
+        resultdf = trans_result_to_allday_df(result)
+        resultdf['NS_ES'] = ES(resultdf['NewScore'].values, 0.7)    
+        resultdf.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/.joinquant/notebook/85ac30828335a92fe694ad583030ea95/%dNewsScore.csv'%SecID)
+        resultdf.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/%dNewsScore.csv'%SecID)
+    '''
     SecID = 603019
     
     
     website = "http://guba.eastmoney.com/list,%s,1,f_1.html"%SecID
-    '''爬取新闻并得到对应的，分别为时间，标题，正负性因子，阅读数'''
+    #爬取新闻并得到对应的，分别为时间，标题，正负性因子，阅读数
     result = get_news_index_list(website)
-    '''对原始收集的result进行处理，得到时间序列'''
+    #对原始收集的result进行处理，得到时间序列
     resultdf = trans_result_to_allday_df(result)
+    resultdf['NS_ES'] = ES(resultdf['NewScore'].values, 0.7)
     resultdf.plot()
     # 保存到策略路径
     resultdf.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/.joinquant/notebook/85ac30828335a92fe694ad583030ea95/%dNewsScore.csv'%SecID)
     # 保存到研究路径
     resultdf.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/%dNewsScore.csv'%SecID)
-        
+       ''' 
 
         

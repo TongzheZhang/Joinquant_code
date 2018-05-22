@@ -1,76 +1,14 @@
-[INFO  - 2018-05-21T03:55:00.133Z] GhostDriver - Main - running on port 49469
-[INFO  - 2018-05-21T03:55:03.452Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-05-21T03:55:03.453Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.customHeaders:  - {}
-[INFO  - 2018-05-21T03:55:03.453Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-05-21T03:55:03.453Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bdde7a70-5caa-11e8-af45-3552a0d7669e
-[INFO  - 2018-05-21T04:00:00.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:05:00.163Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[ERROR - 2018-05-21T04:07:39.101Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - msg: Error: Load timeout for modules: suggest2017
-http://requirejs.org/docs/errors.html#timeout
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-05-21T04:07:39.101Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - stack:
-  defaultOnError (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  l (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  d (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  (anonymous function) (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-05-21T04:10:00.173Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[ERROR - 2018-05-21T04:10:09.511Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - msg: Error: Load timeout for modules: suggest2017
-http://requirejs.org/docs/errors.html#timeout
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-05-21T04:10:09.511Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - stack:
-  defaultOnError (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  l (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  d (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  (anonymous function) (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-05-21T04:15:01.607Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[ERROR - 2018-05-21T04:17:50.167Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - msg: Error: Load timeout for modules: suggest2017
-http://requirejs.org/docs/errors.html#timeout
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-05-21T04:17:50.167Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - stack:
-  defaultOnError (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  l (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  d (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  (anonymous function) (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-05-21T04:20:02.052Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:25:02.031Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[ERROR - 2018-05-21T04:27:17.286Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - msg: Error: Load timeout for modules: suggest2017
-http://requirejs.org/docs/errors.html#timeout
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-05-21T04:27:17.286Z] Session [bdde7a70-5caa-11e8-af45-3552a0d7669e] - page.onError - stack:
-  defaultOnError (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  l (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  d (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-  (anonymous function) (http://gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-05-21T04:30:02.032Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:35:02.037Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:40:02.040Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:45:02.050Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:50:02.050Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T04:55:02.050Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:00:02.063Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:05:02.073Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:10:02.083Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:15:02.097Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:20:02.111Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:25:02.114Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:30:02.125Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:35:02.131Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:40:02.143Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:45:02.144Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:50:02.145Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T05:55:02.149Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T06:00:02.155Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T06:05:02.175Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-21T06:10:02.181Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:06:07.839Z] GhostDriver - Main - running on port 62105
+[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - page.customHeaders:  - {}
+[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-22T06:06:11.065Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39be3e10-5d86-11e8-a010-99d3ee507962
+[INFO  - 2018-05-22T06:11:07.835Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:16:08.071Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:21:08.060Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:26:08.140Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:31:08.146Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:36:08.152Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:41:08.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:46:08.162Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T06:51:08.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
