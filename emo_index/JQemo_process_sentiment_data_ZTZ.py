@@ -36,7 +36,7 @@ if __name__ == '__main__':
         sent.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/.joinquant/notebook/85ac30828335a92fe694ad583030ea95/%dsent_processed.csv'%stockcode)
         sent.to_csv(u'D:/Applications2/JoinQuant-Desktop/USERDATA/%dsent_processed.csv'%stockcode)
     '''
-    stockcode = 600050
+    stockcode = 600064
     
     sent = get_emo_initial_result(stockcode).iloc[::-1][:-1].reset_index(drop=True).set_index('date')
 

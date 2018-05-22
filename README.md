@@ -1,6 +1,6 @@
 # Joinquant_code
-emo_index是处理股民情绪的文件夹
-news_index是处理财经新闻的文件夹
+emo_index是处理股民情绪的文件夹，JQemo_process_sentiment_data_ZTZ.py为主程序
+news_index是处理财经新闻的文件夹，JQnews_main_sina_news_and_get_index.py为主程序
 Daily news for stock market prediction是事件驱动的股票预测的示例程序
 dan是关于jqdatasdk的工作
 others是其他资源

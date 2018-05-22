@@ -1,14 +1,114 @@
-[INFO  - 2018-05-22T06:06:07.839Z] GhostDriver - Main - running on port 62105
-[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - page.customHeaders:  - {}
-[INFO  - 2018-05-22T06:06:11.065Z] Session [39be3e10-5d86-11e8-a010-99d3ee507962] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-05-22T06:06:11.065Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39be3e10-5d86-11e8-a010-99d3ee507962
-[INFO  - 2018-05-22T06:11:07.835Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:16:08.071Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:21:08.060Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:26:08.140Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:31:08.146Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:36:08.152Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:41:08.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:46:08.162Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-05-22T06:51:08.279Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-05-22T08:02:28.634Z] GhostDriver - Main - running on port 59424
+[INFO  - 2018-05-22T08:02:31.954Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-05-22T08:02:31.955Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.customHeaders:  - {}
+[INFO  - 2018-05-22T08:02:31.955Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-05-22T08:02:31.955Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7aadfae0-5d96-11e8-8ac6-e9d7588a9db1
+[ERROR - 2018-05-22T08:02:55.641Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:02:55.641Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976158305:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:03:54.528Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:03:54.529Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976232602:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:04:34.207Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:04:34.207Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976264487:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:05:00.377Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:05:00.377Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976289441:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-05-22T08:07:28.642Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-05-22T08:07:49.100Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:07:49.100Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976467201:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:08:19.764Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'e.css')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-05-22T08:08:19.764Z] Session [7aadfae0-5d96-11e8-8ac6-e9d7588a9db1] - page.onError - stack:
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  (anonymous function) (http://cmsjs.eastmoney.com/js/stocksuggestv3.js:1)
+  g (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  c (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  exports (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  n (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+  (anonymous function) (http://gbfek.dfcfw.com/gubav5/modules/new_module/new_module.js?_=1526976492179:1)
+
+  phantomjs://platform/console++.js:263 in error
