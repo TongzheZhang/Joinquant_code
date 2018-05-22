@@ -1,2 +1,6 @@
 # Joinquant_code
-这里是聚宽的code同步
+emo_index是处理股民情绪的文件夹
+news_index是处理财经新闻的文件夹
+Daily news for stock market prediction是事件驱动的股票预测的示例程序
+dan是关于jqdatasdk的工作
+others是其他资源
